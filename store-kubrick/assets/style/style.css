@@ -1,0 +1,87 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px; /* reduzindo a altura e aumentando a largura */
+    width: 100%; /* ocupando toda a largura */
+}
+
+body {
+    background-color: #ffffffe7;
+  }  
+
+/* estilo para a logo */
+.logo img {
+    height: 30px;
+}
+
+/* estilo para os links */
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.links a {
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links a {
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 2px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: #fff;
+
+}
+
+.logoRodape {
+    padding-right: 50px;
+}
+
+/* Adapta a imagem dentro de .gif-container */
+.gif-container img {
+    width: 20%;
+    height: auto;
+    border-radius: 200px;
+}
+
+/* Adapta o texto dentro de .scroll-animate */
+.scroll-animate {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Media query para telas menores que 768px */
+@media (max-width: 767px) {
+    /* Reduz a fonte para telas menores */
+    .scroll-animate {
+        font-size: 0.8em;
+    }
+}
+
